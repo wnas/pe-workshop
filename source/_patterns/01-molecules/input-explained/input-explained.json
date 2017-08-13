@@ -62,11 +62,89 @@
     "attributes": [
       {
         "attr":"src",
-        "value":"../../img/bell.png"
+        "value":"../../images/bell.png"
       }
     ],
     "title": "image",
     "explanation": "A simple input type image."
+  },
+  {
+    "type": "month",
+
+    "title": "month",
+    "explanation": "A simple input type month."
+  },
+  {
+    "type": "number",
+
+    "title": "number",
+    "explanation": "A simple input type number."
+  },
+  {
+    "type": "password",
+
+    "title": "password",
+    "explanation": "A simple input type password."
+  },
+  {
+    "type": "radio",
+
+    "title": "radio",
+    "explanation": "A simple input type radio."
+  },
+  {
+    "type": "range",
+
+    "title": "range",
+    "explanation": "A simple input type range."
+  },
+  {
+    "type": "reset",
+
+    "title": "reset",
+    "explanation": "A simple input type reset."
+  },
+  {
+    "type": "search",
+
+    "title": "search",
+    "explanation": "A simple input type search."
+  },
+  {
+    "type": "submit",
+
+    "title": "submit",
+    "explanation": "A simple input type submit."
+  },
+  {
+    "type": "tel",
+
+    "title": "tel",
+    "explanation": "A simple input type tel."
+  },
+  {
+    "type": "text",
+
+    "title": "search",
+    "explanation": "A simple input type text."
+  },
+  {
+    "type": "time",
+
+    "title": "time",
+    "explanation": "A simple input type time."
+  },
+  {
+    "type": "url",
+
+    "title": "url",
+    "explanation": "A simple input type url."
+  },
+  {
+    "type": "week",
+
+    "title": "week",
+    "explanation": "A simple input type week."
   },
     { "type": "text",
     "attributes": [{
