@@ -1,3 +1,18 @@
-/*
- * YOUR STYLES HERE
- */
+body {
+  font-size: 1em;
+  font-family: helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  font-size: 1em;
+}
+
+article {
+  padding: 1em;
+}
+
+details {
+  margin-top: 1em;
+}
