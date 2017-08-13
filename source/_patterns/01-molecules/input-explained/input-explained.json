@@ -1,5 +1,73 @@
 {
   "inputs": [
+    { "type": "button",
+
+    "title": "button",
+  "explanation": "A simple input type button." },
+  {
+    "type": "button",
+    "attributes": [
+      {
+        "attr":"value",
+        "value":"button"
+      }
+    ],
+    "title": "button",
+    "explanation": "A simple input type button, now with a value of button."
+  },
+  {
+    "type": "checkbox",
+
+    "title": "checkbox",
+    "explanation": "A simple input type checkbox."
+  },
+  {
+    "type": "color",
+
+    "title": "color",
+    "explanation": "A simple input type color."
+  },
+  {
+    "type": "date",
+
+    "title": "date",
+    "explanation": "A simple input type date."
+  },
+  {
+    "type": "datetime-local",
+
+    "title": "datetime-local",
+    "explanation": "A simple input type datetime-local."
+  },
+  {
+    "type": "email",
+
+    "title": "email",
+    "explanation": "A simple input type email."
+  },
+  {
+    "type": "file",
+
+    "title": "file",
+    "explanation": "A simple input type file."
+  },
+  {
+    "type": "hidden",
+
+    "title": "hidden",
+    "explanation": "A simple input type hidden."
+  },
+  {
+    "type": "image",
+    "attributes": [
+      {
+        "attr":"src",
+        "value":"../../img/bell.png"
+      }
+    ],
+    "title": "image",
+    "explanation": "A simple input type image."
+  },
     { "type": "text",
     "attributes": [{
       "attr": "readonly",
