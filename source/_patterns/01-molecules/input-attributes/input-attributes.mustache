@@ -1,0 +1,20 @@
+
+{{# inputs }}
+<article>
+{{> atoms-input }}
+<details {{# open }}{{ open }}{{/ open }}>
+<summary>{{ title }}</summary>
+<p>{{ explanation }}</p>
+<ul>
+{{# list }}
+<li>
+    {{ item }}
+  </li>
+  </li>
+{{/ list }}
+</ul>
+</details>
+</article>
+{{/ inputs }}
+<footer>
+  <p>Source of all of this wisdom is <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/input#Global_%3Cinput%3E_attributes">MDN</a></p></footer>

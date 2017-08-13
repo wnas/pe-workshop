@@ -1,0 +1,40 @@
+{
+  "inputs": [
+
+    { "type": "file",
+      "open": "open",
+    "attributes": [{
+      "attr": "accept",
+      "value": "png"
+      }],
+    "title": "File / accept",
+  "explanation": "If the value of the type attribute is file, then this attribute will indicate the types of files that the server accepts, otherwise it will be ignored. The value must be a comma-separated list of unique content type specifiers.",
+  "list":[
+    {"item": "A file extension starting with the STOP character (U+002E). (e.g. .jpg, .png, .doc)."},
+    {"item":"A valid MIME type with no extensions."},
+    {"item": "audio/* representing sound files. HTML5."},
+    {"item":"video/* representing video files. HTML5."},
+    {"item":"<li>image/* representing image files. HTML5."}
+  ]
+
+
+ },
+  { "type": "text",
+  "attributes": [{
+    "attr": "disabled",
+    "value": "disabled"
+    },{
+      "attr": "value",
+      "value": "disabled"
+      }],
+  "title": "Text / disabled",
+"explanation": "A simple input type text, with a value of disabled and the disabled attribute set." },
+{ "type": "text",
+"attributes": [{
+  "attr": "placeholder",
+  "value": "placeholder"
+  }],
+"title": "Text / placeholder",
+"explanation": "A simple input type text and the placeholder attribute set to placeholder." }
+  ]
+}

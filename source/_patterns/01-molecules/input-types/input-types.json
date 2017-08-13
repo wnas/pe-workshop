@@ -3,7 +3,7 @@
     { "type": "button",
 
     "title": "button",
-  "explanation": "A simple input type button." },
+  "explanation": "A push button with no default behavior." },
   {
     "type": "button",
     "attributes": [
@@ -13,13 +13,13 @@
       }
     ],
     "title": "button",
-    "explanation": "A simple input type button, now with a value of button."
+    "explanation": "A value of button."
   },
   {
     "type": "checkbox",
 
     "title": "checkbox",
-    "explanation": "A simple input type checkbox."
+    "explanation": "A check box allowing single values to be selected/deselected."
   },
   {
     "type": "color",
