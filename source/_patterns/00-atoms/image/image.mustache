@@ -1,0 +1,9 @@
+<img
+  src="{{ src }}"
+  alt="{{ alt }}"
+  {{# srcset }}
+    srcset="{{# srcset }} {{ src }} {{ res }}, {{/ srcset }}"
+  {{/ srcset }}
+  {{# sizes }}
+    sizes="{{# sizes}} {{ width }}{{ size }}, {{/ sizes}}"
+  {{/ sizes}}/>

@@ -1,4 +1,6 @@
 {
   "title": "Progressive Enhancement",
-  "type": "text"
+  "type": "text",
+  "src": "../../images/meters.png",
+  "alt": "default alt text"
 }

@@ -1,0 +1,10 @@
+<picture>
+  {{# sources }}
+    <source
+      type="{{ type }}"
+      srcset="{{# srcset }}{{ src }} {{ size }}, {{/ srcset }}" media="{{ media }}">
+  {{/ sources }}
+  {{# src }}
+    {{> atoms-image}}
+  {{/ src }}
+</picture>

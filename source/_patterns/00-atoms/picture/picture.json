@@ -1,0 +1,18 @@
+{
+  "src": "../../images/cranes-240x160.jpg",
+  "alt": "Cranes outside the cathedral",
+  "sources": [
+    {
+      "srcset": [
+        { "src" : "../../images/cranes-240x160.jpg", "size": "240w" },
+        { "src" : "../../images/cranes-640x427.jpg", "size": "640w" },
+        { "src" : "../../images/cranes-1024x683.jpg", "size": "1000w" }
+      ],
+      "media": "(min-width : 401px)",
+      "type": "image/jpg"
+
+    }
+
+  ]
+
+}

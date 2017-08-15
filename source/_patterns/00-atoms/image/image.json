@@ -1,0 +1,17 @@
+{
+  "src": "../../images/bell.png",
+  "alt": "alt tekst",
+  "srcset": [
+    { "src": "../../images/bell.png",
+    "res": "1x"},
+      { "src": "../../images/bell@2x.png",
+      "res": "2x"}
+  ],
+  "sizes": [
+    { "width": "(min-width: 36em)",
+      "size": "33,3vw"
+    },
+    { "width": "",
+      "size": "100vw"}
+  ]
+}
