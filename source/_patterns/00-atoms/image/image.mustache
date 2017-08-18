@@ -1,6 +1,12 @@
 <img
   src="{{ src }}"
   alt="{{ alt }}"
+  {{# class }}
+    class="{{ class }}"
+  {{/ class }}
+  {{# id }}
+    id="{{ id }}"
+  {{/ id }}
   {{# srcset }}
     srcset="{{# srcset }} {{ src }} {{ res }}, {{/ srcset }}"
   {{/ srcset }}

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "a",
+      "label": "a",
+      "image": "../../images/meters.png",
+      "class": "carousel__image"
+    },
+    {
+      "id": "b",
+      "label": "b",
+      "image": "../../images/heart.png",
+      "class": "carousel__image"
+    },
+    {
+      "id": "c",
+      "label": "c",
+      "image": "../../images/euro.png",
+      "class": "carousel__image"
+    },
+    {
+      "id": "d",
+      "label": "d",
+      "image": "../../images/bell.png",
+      "class": "carousel__image"
+    }
+  ]
+}
